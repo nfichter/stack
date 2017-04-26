@@ -59,7 +59,7 @@ def parse_file( fname, edges, transform, screen, color ):
 	c = 0
 	while c < len(lines):
 		line = lines[c].strip()
-		print ':' + line + ':'
+		#print ':' + line + ':'
 
 		if line in ARG_COMMANDS:			
 			c+= 1
